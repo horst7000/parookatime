@@ -7,8 +7,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style lang="scss">
-$primary-hue: 160;
-$grey-hue: 160;
+$primary-hue: 30;
+$grey-hue: 293;
 // import Pico
 @import "@picocss/pico/scss/pico";
 </style>

@@ -1,7 +1,6 @@
 <template>
   <main>
-    <h2>Parookaville 2023 - Sonntag 23.7. - Timetable (TBA)</h2>
-    <h2 class="info">Zeiten noch nicht bekannt</h2>
+    <h2>Parookaville 2023 - Sonntag 23.7. - Timetable</h2>
     <table role="grid" ref="tableEl" :style="{'--font-size': fontSize+'px'}">
       <thead>
         <tr>
@@ -27,74 +26,88 @@ import Row from '../components/Row.vue';
 const tableByStages = [
   [],
   [
-    "Afrojack",
-    "Kygo",
-    "Oliver Heldens",
-    "Timmy Trumpet",
-    "Alle Farben",
-    "Fedde Le Grand",
-    "Mattn",
-    "Neelix",
-    "Showtek",
+    "Mattn",,
+    "Fedde Le Grand",,
+    "17:10 Neelix",,
+    "18:15 Showtek",,
+    "19:20 Alle Farben",,,
+    "20:25 Oliver Heldens",,
+    "Afrojack",,
+    "22:40 Kygo",,,
+    "Timmy Trumpet",,
+    "-"
   ],
   [
-    "Scooter",
-    "Finch",
-    "Harris & Ford",
-    "HBz",
-    "Jan-Christian Zeller",
-    "Kasalla",
+    "15:15 Comedy",,,
+    "Ski Aggu",,
+    "17:45 Kasalla",,,
+    "HBz",,,
+    "20:45 Finch",,,
+    "22:15 Scooter",,,
+    "Harris & Ford",,,
+    "-"
   ],
   [
-    "Andrew Rayel",
-    "Ben Gold",
-    "Benjamin R",
-    "Cosmic Gate",
-    "Estiva",
-    "Gareth Emery",
-    "Giuseppe Ottaviani",
-    "Paul Van Dyk",
-    "Scott Project",
+    "Benjamin R",,
+    "16:15 Estiva",,,
+    "17:45 Gareth Emery",,
+    "18:45 Ben Gold",,,
+    "Giuseppe Ottaviani",,
+    "Cosmic Gate",,
+    "Paul Van Dyk",,
+    "Andrew Rayel",,
+    "Scott Project",,
+    "-"
   ],
   [
-    "Atmozfears",
-    "Hard Driver",
+    "Noel Holler",,,
+    "Tiefblau",,
+    "Lost Identitiy",,
+    "Teknoclash",,
+    "Atmozfears",,
+    "LNY TNZ",,
     "Jebroer",
-    "LNY TNZ",
-    "Lost Identitiy",
-    "Noel Holler",
-    "Rooler",
-    "Teknoclash",
-    "Tiefblau",
-    "Timbo & This Chris",
+    "Hard Driver",,
+    "Rooler",,
+    "Timbo & This Chris",,
+    "-"
   ],
   [
-    "Brandon",
-    "Curbi",
-    "Die Gebrüder Brett",
-    "Gestört Aber Geil",
-    "Jerome",
-    "Juicy M",
-    "Moksi",
-    "Neptunica",
-    "Oliver Magenta",
-    "Vize",
+    "Brandon",,
+    "Oliver Magenta",,
+    "Neptunica",,
+    "Jerome",,
+    "Curbi",,
+    "Gestört Aber Geil",,
+    "Vize",,
+    "Juicy M",,
+    "Moksi",,
+    "Die Gebrüder Brett",,
+    "-"
   ],
   [
-    "Rainer Zonneveld",
-    "Christopher Bongard",
-    "Claptone",
-    "Popof",
-    "Sarazar",
-    "Space 92",
-    "Stella Bossi",
-    "Township Rebellion",
+    "Sarazar",,,
+    "Township Rebellion",,,,
+    "Space 92 x Popof",,,,
+    "Rainer Zonneveld",,,
+    "Stella Bossi",,,,
+    "Christopher Bongard",,
+    "-"
   ],
   [
     "",
+    "Rave Aerobic",
+    "Bingolinchen",,,
+    "Planschemalöör",,
+    "Oli. P",,
+    "Das Bo & Schmiddlfinga",,
+    "20:45 The Razzzones",,,
+    "Mia Julia",,
+    "Domenico Anzaldi",,
+    "-"
   ]
 ]
-fillTime(15, 30, 22)
+fillTime(15, 30, 21)
 
 /* ---------------- refs -------------------- */
 const tableEl = ref(null);
